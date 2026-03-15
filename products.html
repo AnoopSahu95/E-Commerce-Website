@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+<h1>ShopSphere</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">Cart</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<h2 class="title">Products</h2>
+
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+
+<div class="products" id="productList">
+
+<div class="product">
+<img src="laptop.png">
+<h3>Laptop</h3>
+<p>$800</p>
+<button onclick="addToCart('Laptop',800)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="Watch.png">
+<h3>Smart Watch</h3>
+<p>$120</p>
+<button onclick="addToCart('Smart Watch',120)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="headphone.png">
+<h3>Headphones</h3>
+<p>$60</p>
+<button onclick="addToCart('Headphones',60)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="shoes.png">
+<h3>Running Shoes</h3>
+<p>$150</p>
+<button onclick="addToCart('Running Shoes',150)">Add to Cart</button>
+</div>
+
+</div>
+
+</body>
+</html>
